@@ -1,0 +1,6 @@
+pytups
+numpy
+arrow
+ujson
+pandas
+orloge
