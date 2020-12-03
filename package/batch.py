@@ -53,7 +53,7 @@ class Batch(object):
 
     def get_instances_paths(self):
         scenarios = self.scenarios
-        if scenarios:
+        if not scenarios:
             scenarios = os.listdir(self.path)
         scenario_paths = {s: os.path.join(self.path, s) for s in scenarios}
         if self.no_scenario:
